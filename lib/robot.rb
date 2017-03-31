@@ -1,4 +1,4 @@
-class Player
+class Robot 
 
   #responsible for having a name and managing fame points
 
@@ -19,7 +19,7 @@ class Player
 "has gone braless under jacket bearing her beau Tristan Thompson's basketball number... after ex Lamar Odom claims she 'tolerated' his cocaine use"]
   end
 
-  def computer_attack
+  def robot_attack
     @possible_attacks.sample
   end
 

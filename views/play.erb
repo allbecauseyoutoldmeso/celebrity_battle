@@ -1,13 +1,13 @@
 <div>
-  <h1><%=@player_1_name%> vs. <%=@player_2_name%></h1>
-<h2><%=@player_1_name%>'s turn</h2>
-  <h3><%=@player_1_name%>: <%=@player_1_fame_points%> Fame Points</h3>
-  <h3><%=@player_2_name%>: <%=@player_2_fame_points%> Fame Points</h3>
+  <h1><%=@playing_now_name%> vs. <%=@not_playing_name%></h1>
+<h2><%=@playing_now_name%>'s turn</h2>
+  <h3><%=@playing_now_name%>: <%=@playing_now_fame_points%> Fame Points</h3>
+  <h3><%=@not_playing_name%>: <%=@not_playing_fame_points%> Fame Points</h3>
 </div>
 
 <form action="/attack" method="post">
 <label for="action">Options:</label>
-<select name="player_1_attack" id="action">
+<select name="playing_now_attack" id="action">
   <option value="has been sent to the Jungle">Jungle</option>
   <option value="has been embarrassingly tripped up on the red carpet">Trip</option>
   <option value="has had their private matters leaked">Sexy Tape</option>
